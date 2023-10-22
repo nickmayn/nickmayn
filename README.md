@@ -1,5 +1,5 @@
 <h1 align="left">Hello! :wave: I'm Nick </h1>
-<h3 align="center">A Data Scientist at MITRE</h3>
+<h3 align="center">A Data Engineer at Booz Allen Hamilton</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nickmayn&label=Profile%20views&color=0e75b6&style=flat" alt="nickmayn" /> </p>
 
