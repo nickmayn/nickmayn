@@ -5,11 +5,11 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nickmayn" alt="nickmayn" /></a> </p>
 
-- 🔭 I’m currently working on [salary_stone](https://github.com/CSI-777/salary_stone)
+- 🔭 I’m currently working on [lattice](https://github.com/nickmayn/lattice_api)
 
 - 🌱 I’m currently learning **GoLang**
 
-- 💬 Ask me about **Python, Spark, Hadoop**
+- 💬 Ask me about **Python, Vue3, Spark, Hadoop**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
