@@ -1,11 +1,11 @@
 <h1 align="left">Hello! :wave: I'm Nick </h1>
-<h3 align="center">A Data Engineer at Booz Allen Hamilton</h3>
+<h3 align="center">A Data Engineer at Iron Eagle X</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nickmayn&label=Profile%20views&color=0e75b6&style=flat" alt="nickmayn" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nickmayn" alt="nickmayn" /></a> </p>
 
-- 🔭 I’m currently working on [lattice](https://github.com/nickmayn/lattice_api)
+- 🔭 I’m currently working on [Snapshot Sports](http://www.snapshot-sports.com/)
 
 - 🌱 I’m currently learning **GoLang**
 
