@@ -5,9 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nickmayn" alt="nickmayn" /></a> </p>
 
-- 🔭 I’m currently working on [Snapshot Sports](http://www.snapshot-sports.com/)
-
-- 🌱 I’m currently learning **GoLang**
+- 🔭 I’m currently working on [Snapshot Sports](http://snapshot-sports.com/)
 
 - 💬 Ask me about **Python, Vue3, Spark, Hadoop**
 
