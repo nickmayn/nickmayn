@@ -2,7 +2,7 @@
 <h3 align="center">🚀 Data Engineer @ Iron Eagle X</h3>
 
 <p align="center">
-  <img src="https://github.com/nickmayn/nickmayn/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://github.com/nickmayn/nickmayn/blob/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </p>
 
 
