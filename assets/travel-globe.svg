@@ -1,151 +1,147 @@
 <svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Animated globe route through Blacksburg, VA, Washington, D.C., and Stuttgart, Germany</title>
-  <desc id="desc">A stylized globe with an animated route that travels through Blacksburg, Virginia, Washington, D.C., and Stuttgart, Germany.</desc>
+  <title id="title">World map with glowing points for places I've pushed code</title>
+  <desc id="desc">A stylized world map highlighting Singapore, Thailand, Egypt, Poland, Italy, France, England, Netherlands, Greece, Bulgaria, Montenegro, and Croatia.</desc>
   <defs>
-    <linearGradient id="bg" x1="140" y1="80" x2="1040" y2="440" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="120" y1="64" x2="1080" y2="456" gradientUnits="userSpaceOnUse">
       <stop stop-color="#06142C"/>
-      <stop offset="0.5" stop-color="#0B2453"/>
+      <stop offset="0.45" stop-color="#0B2453"/>
       <stop offset="1" stop-color="#210F4F"/>
     </linearGradient>
-    <linearGradient id="glow" x1="320" y1="110" x2="820" y2="410" gradientUnits="userSpaceOnUse">
+    <linearGradient id="mapGlow" x1="240" y1="96" x2="940" y2="412" gradientUnits="userSpaceOnUse">
       <stop stop-color="#35E3FF"/>
-      <stop offset="0.5" stop-color="#5B8CFF"/>
-      <stop offset="1" stop-color="#A855F7"/>
-    </linearGradient>
-    <linearGradient id="route" x1="340" y1="260" x2="880" y2="150" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.45" stop-color="#60A5FA"/>
+      <stop offset="0.55" stop-color="#60A5FA"/>
       <stop offset="1" stop-color="#C084FC"/>
     </linearGradient>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <path id="travelPath" d="M426 246C458 223 507 195 550 189C592 183 620 193 663 191C719 188 784 149 855 150" />
     <style>
-      .small-copy { font: 600 1.25rem 'Segoe UI', Arial, sans-serif; letter-spacing: 0.18em; text-transform: uppercase; fill: #9FD9FF; opacity: 0.85; }
-      .headline { font: 700 2.75rem 'Segoe UI', Arial, sans-serif; fill: #F8FBFF; }
-      .city { font: 700 1.5rem 'Segoe UI', Arial, sans-serif; fill: #F8FBFF; }
-      .country { font: 500 1.125rem 'Segoe UI', Arial, sans-serif; fill: #B9CCF8; }
-      .marker-core { fill: #F8FBFF; }
-      .marker-ring { fill: none; stroke-width: 2.5; transform-box: fill-box; transform-origin: center; opacity: 0; }
-      .route-base { stroke: rgba(143,190,255,0.24); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 10 10; fill: none; }
-      .route-active { stroke: url(#route); stroke-width: 5; stroke-linecap: round; fill: none; stroke-dasharray: 18 18; filter: url(#softGlow); animation: dash 4.8s linear infinite; }
-      .travel-dot { fill: #F8FBFF; filter: url(#softGlow); }
-      .city-group { opacity: 0.35; animation: cityPulse 4.8s infinite; }
-      .city-group.dc { animation-delay: 1.6s; }
-      .city-group.stuttgart { animation-delay: 3.2s; }
-      .city-group .marker-ring { stroke: #67E8F9; animation: ring 4.8s infinite; }
-      .city-group.dc .marker-ring { stroke: #60A5FA; animation-delay: 1.6s; }
-      .city-group.stuttgart .marker-ring { stroke: #C084FC; animation-delay: 3.2s; }
-      .city-group.blacksburg { animation-delay: 0s; }
-      .city-group.blacksburg .marker-ring.second { animation-delay: 0.45s; }
-      .city-group.dc .marker-ring.second { animation-delay: 2.05s; }
-      .city-group.stuttgart .marker-ring.second { animation-delay: 3.65s; }
-      .city-group text { filter: url(#softGlow); }
-      .globe-shell { fill: rgba(6, 20, 44, 0.42); stroke: url(#glow); stroke-width: 4; }
-      .globe-grid { stroke: rgba(128, 185, 255, 0.28); stroke-width: 2; }
-      .continent { fill: rgba(46, 205, 255, 0.14); stroke: rgba(129, 209, 255, 0.28); stroke-width: 1.5; }
-      .halo { fill: none; stroke: rgba(74, 222, 255, 0.24); stroke-width: 1.5; }
-      @keyframes dash {
-        from { stroke-dashoffset: 0; }
-        to { stroke-dashoffset: -144; }
-      }
-      @keyframes cityPulse {
-        0%, 100% { opacity: 0.35; }
-        8%, 26% { opacity: 1; }
-        33%, 100% { opacity: 0.35; }
-      }
+      .small-copy { font: 600 1.2rem 'Segoe UI', Arial, sans-serif; letter-spacing: 0.14em; text-transform: uppercase; fill: #9FD9FF; opacity: 0.9; }
+      .headline { font: 700 2.6rem 'Segoe UI', Arial, sans-serif; fill: #F8FBFF; }
+      .map-outline { fill: rgba(17, 34, 68, 0.55); stroke: url(#mapGlow); stroke-width: 2.5; }
+      .land { fill: rgba(62, 220, 255, 0.14); stroke: rgba(143, 212, 255, 0.28); stroke-width: 1.4; }
+      .point { fill: #F8FBFF; filter: url(#softGlow); }
+      .ring { fill: none; stroke: #67E8F9; stroke-width: 2; opacity: 0; transform-box: fill-box; transform-origin: center; animation: ring 4.4s infinite; }
+      .point-group.alt .ring { stroke: #A78BFA; }
+      .point-group.fast .ring { animation-delay: 0.8s; }
+      .point-group.slow .ring { animation-delay: 1.6s; }
+      .label { font: 600 0.86rem 'Segoe UI', Arial, sans-serif; fill: #E8F4FF; }
+      .legend { font: 600 0.98rem 'Segoe UI', Arial, sans-serif; fill: #BBD7FF; }
       @keyframes ring {
         0% { opacity: 0; transform: scale(0.75); }
-        10% { opacity: 0.95; }
-        26% { opacity: 0; transform: scale(2.7); }
+        12% { opacity: 0.95; }
+        34% { opacity: 0; transform: scale(2.7); }
         100% { opacity: 0; transform: scale(2.7); }
       }
       @media (prefers-reduced-motion: reduce) {
-        .route-active,
-        .city-group,
-        .city-group .marker-ring {
-          animation: none;
-        }
-        .city-group {
-          opacity: 1;
-        }
-        .city-group .marker-ring,
-        .travel-dot {
-          opacity: 0;
-        }
+        .ring { animation: none; opacity: 0.35; }
       }
     </style>
   </defs>
 
   <rect x="12" y="12" width="1176" height="496" rx="36" fill="url(#bg)"/>
-  <circle cx="928" cy="108" r="76" fill="url(#glow)" opacity="0.12"/>
-  <circle cx="252" cy="440" r="120" fill="#0EA5E9" opacity="0.08"/>
-  <circle cx="907" cy="388" r="110" fill="#8B5CF6" opacity="0.08"/>
+  <circle cx="926" cy="110" r="80" fill="#22D3EE" opacity="0.12"/>
+  <circle cx="252" cy="430" r="122" fill="#8B5CF6" opacity="0.10"/>
 
-  <text x="96" y="100" class="small-copy">Now orbiting product, data, and ideas</text>
-  <text x="96" y="152" class="headline">Tracking a few favorite points on the globe</text>
+  <text x="96" y="98" class="small-copy">Global commit trail</text>
+  <text x="96" y="150" class="headline">Places I've pushed code</text>
 
-  <g transform="translate(0 8)">
-    <circle cx="600" cy="270" r="176" class="halo"/>
-    <circle cx="600" cy="270" r="163" class="halo" opacity="0.65"/>
-    <circle cx="600" cy="270" r="150" class="globe-shell"/>
-    <ellipse cx="600" cy="270" rx="116" ry="150" class="globe-grid"/>
-    <ellipse cx="600" cy="270" rx="74" ry="150" class="globe-grid"/>
-    <ellipse cx="600" cy="270" rx="32" ry="150" class="globe-grid"/>
-    <ellipse cx="600" cy="270" rx="150" ry="54" class="globe-grid"/>
-    <ellipse cx="600" cy="270" rx="150" ry="96" class="globe-grid"/>
-    <path d="M489 192C525 168 556 156 596 152C626 149 660 152 694 163C733 175 758 196 780 214C743 217 715 227 683 244C643 265 632 293 604 308C578 321 549 320 522 312C499 306 478 295 456 279C468 250 475 218 489 192Z" class="continent"/>
-    <path d="M706 204C741 201 769 209 788 223C807 237 815 257 810 278C805 301 788 316 765 321C742 326 719 321 702 306C688 294 679 279 678 261C676 236 686 215 706 204Z" class="continent" opacity="0.78"/>
-    <path d="M444 260C421 262 400 271 387 287C375 302 371 322 378 337C385 352 399 362 419 366C438 370 458 367 476 356C462 340 453 322 448 304C444 289 443 274 444 260Z" class="continent" opacity="0.78"/>
+  <g transform="translate(90 172)">
+    <rect x="0" y="0" width="1020" height="220" rx="26" class="map-outline"/>
+
+    <!-- North America / Greenland (background context) -->
+    <path class="land" d="M84 66C114 44 156 34 196 42C230 48 260 62 274 82C246 86 220 96 202 116C178 140 152 146 124 138C102 132 84 116 76 96C72 86 74 74 84 66Z"/>
+    <path class="land" d="M286 36C302 24 322 22 338 30C350 36 356 48 350 60C340 70 320 70 304 62C292 56 286 46 286 36Z"/>
+
+    <!-- Europe / North Africa / West Asia -->
+    <path class="land" d="M492 60C526 52 560 52 590 62C616 70 636 86 646 108C654 126 652 146 640 160C628 174 604 184 574 186C548 188 524 182 508 168C494 156 488 140 488 124C488 110 492 98 502 88C510 80 500 70 492 60Z"/>
+    <path class="land" d="M548 186C568 182 592 184 610 194C626 202 634 216 632 230C628 246 610 258 588 260C568 262 548 254 538 240C530 228 530 210 538 198C540 192 544 188 548 186Z"/>
+    <path class="land" d="M644 118C674 110 706 112 734 124C760 136 778 154 786 174C792 188 788 202 776 212C760 226 734 232 708 228C682 224 662 210 652 194C642 176 640 152 644 118Z"/>
+
+    <!-- Asia / SE Asia -->
+    <path class="land" d="M742 94C776 82 818 82 854 96C886 108 908 130 912 154C916 176 902 194 874 206C842 220 802 218 772 206C748 196 732 180 730 160C728 136 730 110 742 94Z"/>
+    <path class="land" d="M812 210C826 204 844 204 856 212C868 220 872 234 866 246C858 258 842 262 826 258C812 254 804 242 804 228C804 220 806 214 812 210Z"/>
+
+    <!-- Highlight points -->
+    <g class="point-group fast">
+      <circle cx="814" cy="232" r="4.6" class="point"/>
+      <circle cx="814" cy="232" r="12" class="ring"/>
+      <text x="828" y="236" class="label">Singapore</text>
+    </g>
+
+    <g class="point-group slow alt">
+      <circle cx="794" cy="218" r="4.6" class="point"/>
+      <circle cx="794" cy="218" r="12" class="ring"/>
+      <text x="808" y="206" class="label">Thailand</text>
+    </g>
+
+    <g class="point-group">
+      <circle cx="566" cy="206" r="4.6" class="point"/>
+      <circle cx="566" cy="206" r="12" class="ring"/>
+      <text x="542" y="224" class="label">Egypt</text>
+    </g>
+
+    <g class="point-group alt">
+      <circle cx="562" cy="116" r="4.6" class="point"/>
+      <circle cx="562" cy="116" r="12" class="ring"/>
+      <text x="574" y="110" class="label">Poland</text>
+    </g>
+
+    <g class="point-group fast">
+      <circle cx="538" cy="136" r="4.6" class="point"/>
+      <circle cx="538" cy="136" r="12" class="ring"/>
+      <text x="504" y="136" class="label">Italy</text>
+    </g>
+
+    <g class="point-group slow alt">
+      <circle cx="510" cy="122" r="4.6" class="point"/>
+      <circle cx="510" cy="122" r="12" class="ring"/>
+      <text x="466" y="116" class="label">France</text>
+    </g>
+
+    <g class="point-group">
+      <circle cx="496" cy="104" r="4.6" class="point"/>
+      <circle cx="496" cy="104" r="12" class="ring"/>
+      <text x="448" y="96" class="label">England</text>
+    </g>
+
+    <g class="point-group alt">
+      <circle cx="522" cy="106" r="4.6" class="point"/>
+      <circle cx="522" cy="106" r="12" class="ring"/>
+      <text x="532" y="92" class="label">Netherlands</text>
+    </g>
+
+    <g class="point-group fast">
+      <circle cx="552" cy="154" r="4.6" class="point"/>
+      <circle cx="552" cy="154" r="12" class="ring"/>
+      <text x="564" y="168" class="label">Greece</text>
+    </g>
+
+    <g class="point-group slow alt">
+      <circle cx="566" cy="146" r="4.6" class="point"/>
+      <circle cx="566" cy="146" r="12" class="ring"/>
+      <text x="578" y="148" class="label">Bulgaria</text>
+    </g>
+
+    <g class="point-group">
+      <circle cx="548" cy="144" r="4.6" class="point"/>
+      <circle cx="548" cy="144" r="12" class="ring"/>
+      <text x="506" y="156" class="label">Montenegro</text>
+    </g>
+
+    <g class="point-group alt">
+      <circle cx="554" cy="138" r="4.6" class="point"/>
+      <circle cx="554" cy="138" r="12" class="ring"/>
+      <text x="562" y="132" class="label">Croatia</text>
+    </g>
   </g>
 
-  <use href="#travelPath" class="route-base"/>
-  <use href="#travelPath" class="route-active"/>
-
-  <g class="city-group blacksburg">
-    <circle cx="426" cy="246" r="6" class="marker-core"/>
-    <circle cx="426" cy="246" r="16" class="marker-ring"/>
-    <circle cx="426" cy="246" r="16" class="marker-ring second"/>
-    <text x="210" y="222" class="city">Blacksburg</text>
-    <text x="210" y="249" class="country">Virginia, USA</text>
-  </g>
-
-  <g class="city-group dc">
-    <circle cx="550" cy="189" r="6" class="marker-core"/>
-    <circle cx="550" cy="189" r="16" class="marker-ring"/>
-    <circle cx="550" cy="189" r="16" class="marker-ring second"/>
-    <text x="512" y="132" class="city">Washington, D.C.</text>
-    <text x="512" y="159" class="country">United States</text>
-  </g>
-
-  <g class="city-group stuttgart">
-    <circle cx="855" cy="150" r="6" class="marker-core"/>
-    <circle cx="855" cy="150" r="16" class="marker-ring"/>
-    <circle cx="855" cy="150" r="16" class="marker-ring second"/>
-    <text x="884" y="146" class="city">Stuttgart</text>
-    <text x="884" y="173" class="country">Germany</text>
-  </g>
-
-  <g>
-    <circle r="8" class="travel-dot">
-      <animateMotion dur="4.8s" repeatCount="indefinite" rotate="auto">
-        <mpath href="#travelPath"/>
-      </animateMotion>
-    </circle>
-  </g>
-
-  <g opacity="0.82">
-    <rect x="94" y="386" width="1012" height="72" rx="24" fill="#07142D" fill-opacity="0.62" stroke="#8CB8FF" stroke-opacity="0.14"/>
-    <text x="130" y="430" class="small-copy" style="letter-spacing: 0.12em;">Blacksburg, VA</text>
-    <circle cx="330" cy="421" r="4" fill="#67E8F9"/>
-    <text x="360" y="430" class="small-copy" style="letter-spacing: 0.12em;">Washington, D.C.</text>
-    <circle cx="620" cy="421" r="4" fill="#60A5FA"/>
-    <text x="650" y="430" class="small-copy" style="letter-spacing: 0.12em;">Stuttgart, Germany</text>
-    <circle cx="920" cy="421" r="4" fill="#C084FC"/>
+  <g opacity="0.88">
+    <rect x="94" y="420" width="1012" height="52" rx="18" fill="#07142D" fill-opacity="0.68" stroke="#8CB8FF" stroke-opacity="0.18"/>
+    <text x="120" y="452" class="legend">Singapore • Thailand • Egypt • Poland • Italy • France • England • Netherlands • Greece • Bulgaria • Montenegro • Croatia</text>
   </g>
 </svg>

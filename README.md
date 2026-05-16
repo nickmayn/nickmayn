@@ -76,13 +76,13 @@
 
 ---
 
-## 🌍 Globe in motion
+## 🗺️ Places I've pushed code
 <p align="center">
-  <img src="./assets/travel-globe.svg" alt="Animated globe route through Blacksburg, Virginia, Washington, D.C., and Stuttgart, Germany" />
+  <img src="./assets/travel-globe.svg" alt="World map with glowing points for places I've pushed code" />
 </p>
 
 <p align="center">
-  Orbiting through <strong>Blacksburg, VA</strong> → <strong>Washington, D.C.</strong> → <strong>Stuttgart, Germany</strong>
+  Places I've pushed code
 </p>
 
 <p align="center">
