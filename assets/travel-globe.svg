@@ -1,5 +1,5 @@
 <svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Animated globe route from Blacksburg, Washington, and Stuttgart</title>
+  <title id="title">Animated globe route through Blacksburg, VA, Washington, D.C., and Stuttgart, Germany</title>
   <desc id="desc">A stylized globe with an animated route that travels through Blacksburg, Virginia, Washington, D.C., and Stuttgart, Germany.</desc>
   <defs>
     <linearGradient id="bg" x1="140" y1="80" x2="1040" y2="440" gradientUnits="userSpaceOnUse">
@@ -26,10 +26,10 @@
     </filter>
     <path id="travelPath" d="M426 246C458 223 507 195 550 189C592 183 620 193 663 191C719 188 784 149 855 150" />
     <style>
-      .small-copy { font: 600 20px 'Segoe UI', Arial, sans-serif; letter-spacing: 0.18em; text-transform: uppercase; fill: #9FD9FF; opacity: 0.85; }
-      .headline { font: 700 44px 'Segoe UI', Arial, sans-serif; fill: #F8FBFF; }
-      .city { font: 700 24px 'Segoe UI', Arial, sans-serif; fill: #F8FBFF; }
-      .country { font: 500 18px 'Segoe UI', Arial, sans-serif; fill: #B9CCF8; }
+      .small-copy { font: 600 1.25rem 'Segoe UI', Arial, sans-serif; letter-spacing: 0.18em; text-transform: uppercase; fill: #9FD9FF; opacity: 0.85; }
+      .headline { font: 700 2.75rem 'Segoe UI', Arial, sans-serif; fill: #F8FBFF; }
+      .city { font: 700 1.5rem 'Segoe UI', Arial, sans-serif; fill: #F8FBFF; }
+      .country { font: 500 1.125rem 'Segoe UI', Arial, sans-serif; fill: #B9CCF8; }
       .marker-core { fill: #F8FBFF; }
       .marker-ring { fill: none; stroke-width: 2.5; transform-box: fill-box; transform-origin: center; opacity: 0; }
       .route-base { stroke: rgba(143,190,255,0.24); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 10 10; fill: none; }
@@ -64,6 +64,20 @@
         10% { opacity: 0.95; }
         26% { opacity: 0; transform: scale(2.7); }
         100% { opacity: 0; transform: scale(2.7); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .route-active,
+        .city-group,
+        .city-group .marker-ring {
+          animation: none;
+        }
+        .city-group {
+          opacity: 1;
+        }
+        .city-group .marker-ring,
+        .travel-dot {
+          opacity: 0;
+        }
       }
     </style>
   </defs>
@@ -126,7 +140,7 @@
   </g>
 
   <g opacity="0.82">
-    <rect x="94" y="386" width="1012" height="72" rx="24" fill="rgba(7, 20, 45, 0.62)" stroke="rgba(140, 184, 255, 0.14)"/>
+    <rect x="94" y="386" width="1012" height="72" rx="24" fill="#07142D" fill-opacity="0.62" stroke="#8CB8FF" stroke-opacity="0.14"/>
     <text x="130" y="430" class="small-copy" style="letter-spacing: 0.12em;">Blacksburg, VA</text>
     <circle cx="330" cy="421" r="4" fill="#67E8F9"/>
     <text x="360" y="430" class="small-copy" style="letter-spacing: 0.12em;">Washington, D.C.</text>
