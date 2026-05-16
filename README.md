@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Nick%20Maynard&fontAlign=50&fontAlignY=38&desc=Data%20Engineer%20%C2%B7%20Builder%20%C2%B7%20ML%20Explorer&descAlign=50&descAlignY=58&color=0:00c6ff,50:0072ff,100:6a11cb&animation=twinkling" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Nick%20Maynard&fontAlign=50&fontAlignY=38&desc=Data%20Engineer%20·%20Builder%20·%20ML%20Explorer&descAlign=50&descAlignY=58&color=0:00c6ff,50:0072ff,100:6a11cb&animation=twinkling" alt="header" />
 </p>
 
 <h1 align="center">⚡ Building modern data systems with style</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2600&pause=1000&color=00D9FF&center=true&vCenter=true&width=900&lines=Data+Engineer+%40+Iron+Eagle+X;Python+%7C+Spark+%7C+Hadoop+%7C+Vue3;Turning+complex+pipelines+into+clean+products;Always+shipping%2C+always+learning" alt="typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2600&pause=1000&color=00D9FF&center=true&vCenter=true&width=900&lines=Data+Engineer+@+Iron+Eagle+X;Python+%7C+Spark+%7C+Hadoop+%7C+Vue3;Turning+complex+pipelines+into+clean+products;Always+shipping%2C+always+learning" alt="typing animation" />
 </p>
 
 <p align="center">
