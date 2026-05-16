@@ -76,19 +76,13 @@
 
 ---
 
-## ⚡ GitHub live signals
+## 🌍 Globe in motion
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/nickmayn/nickmayn?style=for-the-badge&color=22C55E" alt="Last commit" />
-  <img src="https://img.shields.io/github/commit-activity/m/nickmayn/nickmayn?style=for-the-badge&color=0EA5E9" alt="Monthly commits" />
-  <img src="https://img.shields.io/github/languages/count/nickmayn/nickmayn?style=for-the-badge&color=8B5CF6" alt="Languages used" />
-  <img src="https://img.shields.io/github/languages/top/nickmayn/nickmayn?style=for-the-badge&color=F59E0B" alt="Top language" />
+  <img src="./assets/travel-globe.svg" alt="Animated globe route through Blacksburg, Virginia, Washington, D.C., and Stuttgart, Germany" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/nickmayn/nickmayn?style=for-the-badge&color=14B8A6" alt="Repo size" />
-  <img src="https://img.shields.io/github/issues-pr-closed/nickmayn/nickmayn?style=for-the-badge&color=EC4899" alt="Closed pull requests" />
-  <img src="https://img.shields.io/github/issues-closed/nickmayn/nickmayn?style=for-the-badge&color=6366F1" alt="Closed issues" />
-  <img src="https://img.shields.io/github/forks/nickmayn/nickmayn?style=for-the-badge&color=06B6D4" alt="Forks" />
+  Orbiting through <strong>Blacksburg, VA</strong> → <strong>Washington, D.C.</strong> → <strong>Stuttgart, Germany</strong>
 </p>
 
 <p align="center">
