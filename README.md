@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=nickmayn&label=Profile%20views&color=0e75b6&style=for-the-badge"><img src="https://komarev.com/ghpvc/?username=nickmayn&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="profile views" /></a>
   <a href="https://github.com/nickmayn?tab=followers"><img src="https://img.shields.io/github/followers/nickmayn?label=Followers&style=for-the-badge&color=6f42c1" alt="followers" /></a>
-  <a href="https://linkedin.com/in/nick-maynard-624629124"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/nick-maynard-624629124"><img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:nickmaynard00@gmail.com"><img src="https://img.shields.io/badge/Available%20for%20Opportunities-Contact%20Me-22C55E?style=for-the-badge&logo=gmail&logoColor=white" alt="contact" /></a>
 </p>
 
@@ -20,7 +20,7 @@
 ## ✨ Why teams hire me
 
 - 🧠 **Data engineering with product sense** — I translate business needs into robust, scalable systems.
-- ⚙️ **Reliability-first mindset** — clean ETL design, observability, and maintainable pipelines.
+- ⚙️ **Reliability-first mindset** — I build clean ETL design with observability and maintainable pipelines.
 - 🤝 **Strong collaborator** — I work well with product, analytics, and engineering to ship quickly.
 
 ---
@@ -37,7 +37,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL-0F80CC?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/SQLite-0F80CC?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
   <img src="https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark" />
   <img src="https://img.shields.io/badge/Hadoop-FFCC00?style=for-the-badge&logo=apachehadoop&logoColor=black" alt="Hadoop" />
   <img src="https://img.shields.io/badge/FastAPI-05998B?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
