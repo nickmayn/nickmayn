@@ -76,42 +76,23 @@
 
 ---
 
-## 📊 GitHub pulse
+## ⚡ GitHub live signals
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=nickmayn&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=nickmayn&show_icons=true&theme=default&rank_icon=github&hide_border=true" />
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=nickmayn&show_icons=true&theme=default&rank_icon=github&hide_border=true" alt="GitHub stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=nickmayn&layout=compact&theme=tokyonight&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=nickmayn&layout=compact&theme=default&hide_border=true" />
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=nickmayn&layout=compact&theme=default&hide_border=true" alt="Top languages" />
-  </picture>
+  <img src="https://img.shields.io/github/last-commit/nickmayn/nickmayn?style=for-the-badge&color=22C55E" alt="Last commit" />
+  <img src="https://img.shields.io/github/commit-activity/m/nickmayn/nickmayn?style=for-the-badge&color=0EA5E9" alt="Monthly commits" />
+  <img src="https://img.shields.io/github/languages/count/nickmayn/nickmayn?style=for-the-badge&color=8B5CF6" alt="Languages used" />
+  <img src="https://img.shields.io/github/languages/top/nickmayn/nickmayn?style=for-the-badge&color=F59E0B" alt="Top language" />
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=nickmayn&theme=tokyonight&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=nickmayn&theme=default&hide_border=true" />
-    <img src="https://streak-stats.demolab.com?user=nickmayn&theme=default&hide_border=true" alt="GitHub streak" />
-  </picture>
+  <img src="https://img.shields.io/github/repo-size/nickmayn/nickmayn?style=for-the-badge&color=14B8A6" alt="Repo size" />
+  <img src="https://img.shields.io/github/issues-pr-closed/nickmayn/nickmayn?style=for-the-badge&color=EC4899" alt="Closed pull requests" />
+  <img src="https://img.shields.io/github/issues-closed/nickmayn/nickmayn?style=for-the-badge&color=6366F1" alt="Closed issues" />
+  <img src="https://img.shields.io/github/forks/nickmayn/nickmayn?style=for-the-badge&color=06B6D4" alt="Forks" />
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=nickmayn&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=nickmayn&theme=flat&no-frame=true&column=7&margin-w=10&margin-h=10" />
-    <img src="https://github-profile-trophy.vercel.app/?username=nickmayn&theme=flat&no-frame=true&column=7&margin-w=10&margin-h=10" alt="GitHub trophies" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=nickmayn&theme=tokyo-night&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=nickmayn&theme=github-light&hide_border=true" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=nickmayn&theme=github-light&hide_border=true" alt="Contribution graph" />
-  </picture>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=80&text=Always%20shipping%20fast%20%F0%9F%9A%80&fontAlign=50&fontAlignY=50&fontSize=30&color=0:00c6ff,50:0072ff,100:6a11cb" alt="shipping fast banner" />
 </p>
 
 <p align="center">
