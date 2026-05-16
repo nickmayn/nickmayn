@@ -74,13 +74,6 @@
   </picture>
 </p>
 
----
-
-## 🗺️ Places I've pushed code
-<p align="center">
-  <img src="./assets/travel-globe.svg" alt="World map with glowing points for places I've pushed code" />
-</p>
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=80&text=Always%20shipping%20fast%20%F0%9F%9A%80&fontAlign=50&fontAlignY=50&fontSize=30&color=0:00c6ff,50:0072ff,100:6a11cb" alt="shipping fast banner" />
 </p>
