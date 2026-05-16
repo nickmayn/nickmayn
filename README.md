@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://snapshot-sports.com/"><img src="https://img.shields.io/badge/Current%20Project-Snapshot%20Sports-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Snapshot Sports" /></a>
+  <a href="https://snapshot-sports.com/"><img src="https://img.shields.io/badge/Current%20Project-Snapshot%20Sports-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Snapshot Sports" /></a>
   <a href="https://linkedin.com/in/nick-maynard-624629124"><img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
@@ -31,40 +31,69 @@
 
 ## 🛠️ Core Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,vue,ts,js,docker,linux,git,postgres,tensorflow,pytorch&theme=dark" alt="skills" />
+  <img src="https://img.shields.io/badge/Vue%203-42B883?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue 3" />
+  <img src="https://img.shields.io/badge/FastAPI-05998B?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/SQLite-0F80CC?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark" />
-  <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" alt="Hadoop" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn" />
+  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
+  <img src="https://img.shields.io/badge/Cursor-1F2937?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
+  <img src="https://img.shields.io/badge/Cloud%20Agentic%20Platforms-7C3AED?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Cloud Agentic Platforms" />
+  <img src="https://img.shields.io/badge/LangGraph-0B132B?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/CrewAI-FF4F64?style=for-the-badge&logo=openai&logoColor=white" alt="CrewAI" />
 </p>
 
 ---
 
 ## 🐍 Contribution Snake (still here, now in neon)
 <p align="center">
-  <img src="https://github.com/nickmayn/nickmayn/blob/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nickmayn/nickmayn/blob/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/nickmayn/nickmayn/blob/output/github-contribution-grid-snake.svg" />
+    <img src="https://github.com/nickmayn/nickmayn/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  </picture>
 </p>
 
 ---
 
 ## 📊 Live GitHub Pulse
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nickmayn&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=nickmayn&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=nickmayn&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=nickmayn&show_icons=true&theme=default&rank_icon=github&hide_border=true" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=nickmayn&show_icons=true&theme=default&rank_icon=github&hide_border=true" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=nickmayn&layout=compact&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=nickmayn&layout=compact&theme=default&hide_border=true" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=nickmayn&layout=compact&theme=default&hide_border=true" alt="Top languages" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=nickmayn&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=nickmayn&theme=tokyonight&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=nickmayn&theme=default&hide_border=true" />
+    <img src="https://streak-stats.demolab.com?user=nickmayn&theme=default&hide_border=true" alt="GitHub streak" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nickmayn&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10" alt="GitHub trophies" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=nickmayn&theme=tokyonight&no-frame=true&column=7&margin-w=10&margin-h=10" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=nickmayn&theme=flat&no-frame=true&column=7&margin-w=10&margin-h=10" />
+    <img src="https://github-profile-trophy.vercel.app/?username=nickmayn&theme=flat&no-frame=true&column=7&margin-w=10&margin-h=10" alt="GitHub trophies" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nickmayn&theme=tokyo-night&hide_border=true" alt="Contribution graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=nickmayn&theme=tokyo-night&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=nickmayn&theme=github-light&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=nickmayn&theme=github-light&hide_border=true" alt="Contribution graph" />
+  </picture>
 </p>
 
 <p align="center">
