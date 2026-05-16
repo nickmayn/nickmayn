@@ -1,0 +1,151 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated globe route through Blacksburg, VA, Washington, D.C., and Stuttgart, Germany</title>
+  <desc id="desc">A stylized globe with an animated route that travels through Blacksburg, Virginia, Washington, D.C., and Stuttgart, Germany.</desc>
+  <defs>
+    <linearGradient id="bg" x1="140" y1="80" x2="1040" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06142C"/>
+      <stop offset="0.5" stop-color="#0B2453"/>
+      <stop offset="1" stop-color="#210F4F"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="320" y1="110" x2="820" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35E3FF"/>
+      <stop offset="0.5" stop-color="#5B8CFF"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="route" x1="340" y1="260" x2="880" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.45" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="travelPath" d="M426 246C458 223 507 195 550 189C592 183 620 193 663 191C719 188 784 149 855 150" />
+    <style>
+      .small-copy { font: 600 1.25rem 'Segoe UI', Arial, sans-serif; letter-spacing: 0.18em; text-transform: uppercase; fill: #9FD9FF; opacity: 0.85; }
+      .headline { font: 700 2.75rem 'Segoe UI', Arial, sans-serif; fill: #F8FBFF; }
+      .city { font: 700 1.5rem 'Segoe UI', Arial, sans-serif; fill: #F8FBFF; }
+      .country { font: 500 1.125rem 'Segoe UI', Arial, sans-serif; fill: #B9CCF8; }
+      .marker-core { fill: #F8FBFF; }
+      .marker-ring { fill: none; stroke-width: 2.5; transform-box: fill-box; transform-origin: center; opacity: 0; }
+      .route-base { stroke: rgba(143,190,255,0.24); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 10 10; fill: none; }
+      .route-active { stroke: url(#route); stroke-width: 5; stroke-linecap: round; fill: none; stroke-dasharray: 18 18; filter: url(#softGlow); animation: dash 4.8s linear infinite; }
+      .travel-dot { fill: #F8FBFF; filter: url(#softGlow); }
+      .city-group { opacity: 0.35; animation: cityPulse 4.8s infinite; }
+      .city-group.dc { animation-delay: 1.6s; }
+      .city-group.stuttgart { animation-delay: 3.2s; }
+      .city-group .marker-ring { stroke: #67E8F9; animation: ring 4.8s infinite; }
+      .city-group.dc .marker-ring { stroke: #60A5FA; animation-delay: 1.6s; }
+      .city-group.stuttgart .marker-ring { stroke: #C084FC; animation-delay: 3.2s; }
+      .city-group.blacksburg { animation-delay: 0s; }
+      .city-group.blacksburg .marker-ring.second { animation-delay: 0.45s; }
+      .city-group.dc .marker-ring.second { animation-delay: 2.05s; }
+      .city-group.stuttgart .marker-ring.second { animation-delay: 3.65s; }
+      .city-group text { filter: url(#softGlow); }
+      .globe-shell { fill: rgba(6, 20, 44, 0.42); stroke: url(#glow); stroke-width: 4; }
+      .globe-grid { stroke: rgba(128, 185, 255, 0.28); stroke-width: 2; }
+      .continent { fill: rgba(46, 205, 255, 0.14); stroke: rgba(129, 209, 255, 0.28); stroke-width: 1.5; }
+      .halo { fill: none; stroke: rgba(74, 222, 255, 0.24); stroke-width: 1.5; }
+      @keyframes dash {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: -144; }
+      }
+      @keyframes cityPulse {
+        0%, 100% { opacity: 0.35; }
+        8%, 26% { opacity: 1; }
+        33%, 100% { opacity: 0.35; }
+      }
+      @keyframes ring {
+        0% { opacity: 0; transform: scale(0.75); }
+        10% { opacity: 0.95; }
+        26% { opacity: 0; transform: scale(2.7); }
+        100% { opacity: 0; transform: scale(2.7); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .route-active,
+        .city-group,
+        .city-group .marker-ring {
+          animation: none;
+        }
+        .city-group {
+          opacity: 1;
+        }
+        .city-group .marker-ring,
+        .travel-dot {
+          opacity: 0;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect x="12" y="12" width="1176" height="496" rx="36" fill="url(#bg)"/>
+  <circle cx="928" cy="108" r="76" fill="url(#glow)" opacity="0.12"/>
+  <circle cx="252" cy="440" r="120" fill="#0EA5E9" opacity="0.08"/>
+  <circle cx="907" cy="388" r="110" fill="#8B5CF6" opacity="0.08"/>
+
+  <text x="96" y="100" class="small-copy">Now orbiting product, data, and ideas</text>
+  <text x="96" y="152" class="headline">Tracking a few favorite points on the globe</text>
+
+  <g transform="translate(0 8)">
+    <circle cx="600" cy="270" r="176" class="halo"/>
+    <circle cx="600" cy="270" r="163" class="halo" opacity="0.65"/>
+    <circle cx="600" cy="270" r="150" class="globe-shell"/>
+    <ellipse cx="600" cy="270" rx="116" ry="150" class="globe-grid"/>
+    <ellipse cx="600" cy="270" rx="74" ry="150" class="globe-grid"/>
+    <ellipse cx="600" cy="270" rx="32" ry="150" class="globe-grid"/>
+    <ellipse cx="600" cy="270" rx="150" ry="54" class="globe-grid"/>
+    <ellipse cx="600" cy="270" rx="150" ry="96" class="globe-grid"/>
+    <path d="M489 192C525 168 556 156 596 152C626 149 660 152 694 163C733 175 758 196 780 214C743 217 715 227 683 244C643 265 632 293 604 308C578 321 549 320 522 312C499 306 478 295 456 279C468 250 475 218 489 192Z" class="continent"/>
+    <path d="M706 204C741 201 769 209 788 223C807 237 815 257 810 278C805 301 788 316 765 321C742 326 719 321 702 306C688 294 679 279 678 261C676 236 686 215 706 204Z" class="continent" opacity="0.78"/>
+    <path d="M444 260C421 262 400 271 387 287C375 302 371 322 378 337C385 352 399 362 419 366C438 370 458 367 476 356C462 340 453 322 448 304C444 289 443 274 444 260Z" class="continent" opacity="0.78"/>
+  </g>
+
+  <use href="#travelPath" class="route-base"/>
+  <use href="#travelPath" class="route-active"/>
+
+  <g class="city-group blacksburg">
+    <circle cx="426" cy="246" r="6" class="marker-core"/>
+    <circle cx="426" cy="246" r="16" class="marker-ring"/>
+    <circle cx="426" cy="246" r="16" class="marker-ring second"/>
+    <text x="210" y="222" class="city">Blacksburg</text>
+    <text x="210" y="249" class="country">Virginia, USA</text>
+  </g>
+
+  <g class="city-group dc">
+    <circle cx="550" cy="189" r="6" class="marker-core"/>
+    <circle cx="550" cy="189" r="16" class="marker-ring"/>
+    <circle cx="550" cy="189" r="16" class="marker-ring second"/>
+    <text x="512" y="132" class="city">Washington, D.C.</text>
+    <text x="512" y="159" class="country">United States</text>
+  </g>
+
+  <g class="city-group stuttgart">
+    <circle cx="855" cy="150" r="6" class="marker-core"/>
+    <circle cx="855" cy="150" r="16" class="marker-ring"/>
+    <circle cx="855" cy="150" r="16" class="marker-ring second"/>
+    <text x="884" y="146" class="city">Stuttgart</text>
+    <text x="884" y="173" class="country">Germany</text>
+  </g>
+
+  <g>
+    <circle r="8" class="travel-dot">
+      <animateMotion dur="4.8s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#travelPath"/>
+      </animateMotion>
+    </circle>
+  </g>
+
+  <g opacity="0.82">
+    <rect x="94" y="386" width="1012" height="72" rx="24" fill="#07142D" fill-opacity="0.62" stroke="#8CB8FF" stroke-opacity="0.14"/>
+    <text x="130" y="430" class="small-copy" style="letter-spacing: 0.12em;">Blacksburg, VA</text>
+    <circle cx="330" cy="421" r="4" fill="#67E8F9"/>
+    <text x="360" y="430" class="small-copy" style="letter-spacing: 0.12em;">Washington, D.C.</text>
+    <circle cx="620" cy="421" r="4" fill="#60A5FA"/>
+    <text x="650" y="430" class="small-copy" style="letter-spacing: 0.12em;">Stuttgart, Germany</text>
+    <circle cx="920" cy="421" r="4" fill="#C084FC"/>
+  </g>
+</svg>
