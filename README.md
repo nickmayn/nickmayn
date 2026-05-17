@@ -74,7 +74,7 @@
   </picture>
 </p>
 
-## ⚡ Daily streak & flashy live stats
+## ⚡ Daily streak & GitHub stats
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=nickmayn&theme=tokyonight&hide_border=true&border_radius=12" />
