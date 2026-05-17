@@ -5,14 +5,14 @@
 <h1 align="center">🚀 Building modern data systems that ship real product value</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2600&pause=1000&color=00D9FF&center=true&vCenter=true&width=980&lines=Data+Engineer+%40+Iron+Eagle+X;Python+%7C+Spark+%7C+Hadoop+%7C+SQL+%7C+Vue+3;I+build+reliable+pipelines+and+human-friendly+products;Open+to+high-impact+data+%26+AI+opportunities" alt="typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2600&pause=1000&color=00D9FF&center=true&vCenter=true&width=980&lines=Data+Engineer+%40+Iron+Eagle+X;Python+%7C+Spark+%7C+Hadoop+%7C+SQL+%7C+Vue+3;I+build+reliable+pipelines+and+human-friendly+products" alt="typing animation" />
 </p>
 
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=nickmayn&label=Profile%20views&color=0e75b6&style=for-the-badge"><img src="https://komarev.com/ghpvc/?username=nickmayn&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="profile views" /></a>
   <a href="https://github.com/nickmayn?tab=followers"><img src="https://img.shields.io/github/followers/nickmayn?label=Followers&style=for-the-badge&color=6f42c1" alt="followers" /></a>
   <a href="https://linkedin.com/in/nick-maynard-624629124"><img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:nickmaynard00@gmail.com"><img src="https://img.shields.io/badge/Available%20for%20Opportunities-Contact%20Me-22C55E?style=for-the-badge&logo=gmail&logoColor=white" alt="contact" /></a>
+  <a href="https://linkedin.com/in/nick-maynard-624629124"><img src="https://img.shields.io/badge/Contact%20Me-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Contact Me on LinkedIn" /></a>
 </p>
 
 ---
