@@ -74,6 +74,36 @@
   </picture>
 </p>
 
+## ⚡ Daily streak & flashy live stats
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=nickmayn&theme=tokyonight&hide_border=true&border_radius=12" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=nickmayn&theme=default&hide_border=true&border_radius=12" />
+    <img src="https://streak-stats.demolab.com?user=nickmayn&theme=default&hide_border=true&border_radius=12" alt="daily commit streak stats" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=nickmayn&show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=nickmayn&show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&hide_border=true&theme=default" />
+    <img src="https://github-readme-stats.vercel.app/api?username=nickmayn&show_icons=true&rank_icon=github&include_all_commits=true&count_private=true&hide_border=true&theme=default" alt="GitHub stats card" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=nickmayn&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=nickmayn&layout=compact&hide_border=true&langs_count=8&theme=default" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nickmayn&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages card" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=nickmayn&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=nickmayn&bg_color=ffffff&color=1f2328&line=0969da&point=1f6feb&area=true&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=nickmayn&bg_color=ffffff&color=1f2328&line=0969da&point=1f6feb&area=true&hide_border=true" alt="GitHub activity graph" />
+  </picture>
+</p>
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=80&text=Always%20shipping%20fast%20%F0%9F%9A%80&fontAlign=50&fontAlignY=50&fontSize=30&color=0:00c6ff,50:0072ff,100:6a11cb" alt="shipping fast banner" />
 </p>
