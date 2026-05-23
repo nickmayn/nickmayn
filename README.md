@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&text=Nick%20Maynard&fontAlign=50&fontAlignY=38&desc=Data%20Engineer%20·%20AI%20Builder%20·%20Product-Minded&descAlign=50&descAlignY=58&color=0:00c6ff,50:0072ff,100:6a11cb&animation=twinkling" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&text=Nick%20Maynard&fontAlign=50&fontAlignY=38&desc=Data%20Engineer%20·%20AI%20Builder%20·%20Product-Minded&descAlign=50&descAlignY=58&fontColor=ffffff&descColor=f8fafc&color=0:00c6ff,50:0072ff,100:6a11cb&animation=twinkling" alt="header" />
 </p>
 
 <h1 align="center">🚀 Building modern data systems that ship real product value</h1>
